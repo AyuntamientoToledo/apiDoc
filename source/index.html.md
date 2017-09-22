@@ -18,6 +18,12 @@ search: true
 
 Bienvenido a la documentación de la API de Tickets del Ayuntamiento de Toledo. Esta API está orientada a la creación y consulta de estado de las incidencias en la vía pública enviadas por los ciudadanos. 
 
+
+```
+En este panel encontrarás ejemplos a realizar en el shell. Adáptalos al lenguaje de programación que vayas a utilizar.
+
+```
+
 # Autenticación
 
 > Para realizar la autenticación utilizar el siguiente código:
@@ -26,9 +32,9 @@ Bienvenido a la documentación de la API de Tickets del Ayuntamiento de Toledo. 
 
 ```
 
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "X-API-Key: codigo"
+# Para cada petición, asegúrate de añadir la API Key
+curl "api_endpoint_aqui"
+  -H "X-API-Key: código"
 ```
 
 
