@@ -21,9 +21,9 @@ search: true
 
 Bienvenido a la documentación de la API de Tickets del Ayuntamiento de Toledo. Esta API está orientada a la creación y consulta de estado de las incidencias en la vía pública enviadas por los ciudadanos. 
 
-# Authentication
+# Autenticación
 
-> To authorize, use this code:
+> Para realizar la autenticación utilizar el siguiente código:
 
 ```ruby
 require 'kittn'
@@ -40,7 +40,7 @@ api = kittn.authorize('meowmeowmeow')
 ```shell
 # With shell, you can just pass the correct header with each request
 curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-Key: codigo"
 ```
 
 ```javascript
